@@ -1,5 +1,5 @@
 {
-  "name": "euglena.organelle.fs.nodejs",
+  "name": "@euglena/organelle.fs.nodejs",
   "version": "0.0.1",
   "description": "",
   "main": ".dist/src/index.js",
