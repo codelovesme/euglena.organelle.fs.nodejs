@@ -23,7 +23,6 @@
     "cessnalib.nodejs": "0.0.3",
     "jsonminify": "^0.4.1"
   },
-  "private": false,
   "devDependencies": {
     "@types/chai": "^4.0.10",
     "@types/node": "^7.0.14",
