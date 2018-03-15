@@ -72,7 +72,7 @@ export namespace particles {
         export class WriteBase64File extends euglena.ParticleV2<WriteBase64FileContent>{
             public static readonly NAME = "WriteBase64File";
             constructor(content: WriteBase64FileContent, of: string) {
-                super(new euglena.MetaV2(euglena_template.alive.particle.Base64File.NAME, of), content);
+                super(new euglena.MetaV2(WriteBase64File.NAME, of), content);
             }
         }
     }

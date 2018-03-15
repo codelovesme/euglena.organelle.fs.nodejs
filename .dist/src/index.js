@@ -60,7 +60,7 @@ var particles;
         incoming.Sap = Sap;
         class WriteBase64File extends euglena.ParticleV2 {
             constructor(content, of) {
-                super(new euglena.MetaV2(euglena_template.alive.particle.Base64File.NAME, of), content);
+                super(new euglena.MetaV2(WriteBase64File.NAME, of), content);
             }
         }
         WriteBase64File.NAME = "WriteBase64File";
